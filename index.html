@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="gallery-container">
+        <header>
+            <h1>Advanced Image Gallery</h1>
+            <div class="theme-toggle">
+                <button id="themeToggle">Toggle Theme</button>
+            </div>
+        </header>
+        <main>
+            <div class="main-display">
+                <img id="mainImage" src="images/image1.jpg" alt="Displayed Image">
+                <div class="image-info">
+                    <p id="imageCaption">Image 1 Description</p>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="prevBtn">&#10094; Previous</button>
+                <button id="nextBtn">Next &#10095;</button>
+                <button id="slideshowBtn">Start Slideshow</button>
+            </div>
+            <div class="thumbnail-grid">
+                <img class="thumbnail" src="images/image1.jpg" alt="Thumbnail 1" data-caption="Image 1 Description">
+                <img class="thumbnail" src="images/image2.jpg" alt="Thumbnail 2" data-caption="Image 2 Description">
+                <img class="thumbnail" src="images/image3.jpg" alt="Thumbnail 3" data-caption="Image 3 Description">
+                <img class="thumbnail" src="images/image4.jpg" alt="Thumbnail 4" data-caption="Image 4 Description">
+                 <img class="thumbnail" src="images/image5.jpg" alt="Thumbnail 5" data-caption="Image 5 Description">
+                  <img class="thumbnail" src="images/image6.jpg" alt="Thumbnail 6" data-caption="Image 6 Description">
+                  <img class="thumbnail" src="images/image7.jpg" alt="Thumbnail 7" data-caption="Image 7 Description">
+            </div>
+        </main>
+    </div>
+</body>
+</html>
