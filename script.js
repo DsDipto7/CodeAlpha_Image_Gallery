@@ -68,6 +68,11 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+//Zoom Functionality
+mainImage.addEventListener('click', () => {
+    mainImage.classList.toggle('zoomed');
+});
+
 
 // Initialize the first image
 updateMainImage(0);
