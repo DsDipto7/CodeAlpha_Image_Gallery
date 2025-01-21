@@ -59,5 +59,15 @@ themeToggle.addEventListener('click', () => {
     body.classList.toggle('dark-theme');
 });
 
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowLeft') {
+        prevBtn.click();
+    } else if (event.key === 'ArrowRight') {
+        nextBtn.click();
+    }
+});
+
+
 // Initialize the first image
 updateMainImage(0);
